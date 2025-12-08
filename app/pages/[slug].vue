@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>{{ route.params.slug }}</h1>
+    <h1>[slug] Page</h1>
+    <pre>route name: {{ route.name }}</pre>
   </div>
 </template>
 

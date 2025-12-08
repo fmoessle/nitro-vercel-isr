@@ -1,6 +1,10 @@
 <template>
   <div>
     <h1>Home Page</h1>
-    <p>Navigate to /your-slug to test the slug page</p>
+    <pre>route name: {{ route.name }}</pre>
   </div>
 </template>
+
+<script setup lang="ts">
+const route = useRoute()
+</script>
