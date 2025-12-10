@@ -10,11 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nitro": "https://pkg.pr.new/nitrojs/nitro@8a4f67e",
-    "nitropack": "https://pkg.pr.new/nitrojs/nitro@8a4f67e",
     "nuxt": "4.2.1",
     "vue": "3.5.25",
     "vue-router": "4.6.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "nitropack": "npm:nitropack-nightly@2.13.0-20251210-110053-de8d24c4"
+    }
   },
   "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
 }
