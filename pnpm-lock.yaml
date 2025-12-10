@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      nitro:
+      nitropack:
         specifier: npm:nitropack-nightly@latest
         version: nitropack-nightly@2.12.7-20251003-132655.f739097c
       nuxt:
