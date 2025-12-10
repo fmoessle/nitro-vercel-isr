@@ -12,7 +12,8 @@
   "dependencies": {
     "nuxt": "4.2.1",
     "vue": "3.5.25",
-    "vue-router": "4.6.3"
+    "vue-router": "4.6.3",
+    "nitropack": "https://pkg.pr.new/nitrojs/nitro@3851"
   },
   "overrides": {
     "nitropack": "https://pkg.pr.new/nitrojs/nitro@3851"
